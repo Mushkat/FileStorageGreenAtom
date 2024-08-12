@@ -7,14 +7,12 @@
     <artifactId>upload-file-to-postgresql</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <!-- Inherit defaults from Spring Boot -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.5.RELEASE</version>
     </parent>
 
-    <!-- Add typical dependencies for a web application -->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -32,7 +30,6 @@
         </dependency>
     </dependencies>
 
-    <!-- Package as an executable jar -->
     <build>
         <plugins>
             <plugin>
